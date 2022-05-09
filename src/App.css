@@ -8,7 +8,7 @@ body{
   
 .card{
     justify-content: center;
-    padding: 0 1rem .5rem 1rem;
+    padding: .3rem 1rem .5rem 1rem;
     width: 400px;
     background: #FFFFFF;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
@@ -19,6 +19,6 @@ body{
 
 .image{
     position: absolute;
-    top: 0;
+    top: 2rem;
     left: 1rem;
 }

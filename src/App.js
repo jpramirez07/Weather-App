@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <div className='card'>
-        <h2>Weather app</h2>
+        <h2>Aplicacion del clima</h2>
         <h3>{weather.name}, {weather.sys?.country}</h3>
         <p><b>Temperatura: </b>{changevtemp ? tempc:tempf} <b>{changetemp ? "°C":"°F"}</b></p>
         <p><b>Humedad: </b>{weather.main?.humidity}</p>
